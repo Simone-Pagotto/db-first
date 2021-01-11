@@ -1,5 +1,5 @@
-1) Nome Tabella : Garage Concessionaria, in quanto sono mostrati tutte le vetture n magazzino e non solo i vari modelli disponibili
-2)  -Car_id numero SMALL INT :copre circa 64'000 modelli, sufficiente per un magazzino di auto fisico
+ Nome Tabella : Garage Concessionaria, in quanto sono mostrati tutte le vetture n magazzino e non solo i vari modelli disponibili
+    -Car_id numero SMALL INT :copre circa 64'000 modelli, sufficiente per un magazzino di auto fisico
     -Casa produttrice                           / stringa / VARCHAR(50)
     -Modello macchina                           / stringa / VARCHAR(50)
     -Generazione                                / stringa / VARCHAR(100)
