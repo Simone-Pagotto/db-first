@@ -1,0 +1,64 @@
+1) Nome Tabella : Garage Concessionaria, in quanto sono mostrati tutte le vetture n magazzino e non solo i vari modelli disponibili
+2)  -Car_id numero SMALL INT :copre circa 64'000 modelli, sufficiente per un magazzino di auto fisico
+    -Casa produttrice                           / stringa / VARCHAR(50)
+    -Modello macchina                           / stringa / VARCHAR(50)
+    -Generazione                                / stringa / VARCHAR(100)
+    -Modifica motore                            / stringa
+    -Inizio anno di produzione                  / numero / YEAR
+    -Fine anno di produzione                    / numero / YEAR
+    -Architettura dell'unità di potenza         / stringa / TEXT
+    -Tipo di carrozzeria                        / stringa / VARCHAR(50)
+    -Posti                                      / numero / TINYINT
+    -Numero porte                               / numero / TINYINT
+
+    -Consumo nel ciclo urbano      / stringa / VARCHAR(50)
+    -Consumo nel ciclo extraurbano / stringa / VARCHAR(50)
+    -Consumo nel ciclo misto 	   / stringa / VARCHAR(50)
+    -Tipo carburante 	           / stringa / VARCHAR(50)
+    -Accelerazione 0 - 100 km/h    / numero / FLOAT(4,1)  
+    -Accelerazione 0 - 62 mph	   / numero / FLOAT(4,1) 
+    -Accelerazione 0 - 60 mph      / numero / FLOAT(4,1) 
+    -Velocità massima 	           / numero / SMALLINT 
+    -Rapporto peso/potenza 	       / numero / FLOAT(4,1) 
+
+    -Potenza 	                             / stringa / VARCHAR(50)
+    -Capacità per litro di volume di lavoro  / stringa / FLOAT(4,1)
+    -Coppia massima 	                     / stringa / VARCHAR(50)
+    -Posizione del motore 	                 / stringa / VARCHAR(50)
+    -Modello del motore 	                 / stringa / VARCHAR(50)
+    -Cilindrata 	                         / numero / SMALLINT
+    -Numero dei cilindri 	                 / numero / SMALLINT
+    -Posizione dei cilindri 	             / stringa / VARCHAR(50)
+    -Alesaggio 	                             / numero / SMALLINT
+    -Corsa 	                                 / numero / SMALLINT
+    -Rapporto di compressione 	             / numero / SMALLINT
+    -Numero di valvole per cilindro          / numero / SMALLINT
+    -Sistema di alimentazione 	             / stringa / VARCHAR(50)
+    -Olio motore - quantità 	             / numero / FLOAT(4,1)
+    -refrigerante                            / numero / FLOAT(4,1)
+
+    -Peso 	                                    /numero / SMALLINT                                   
+    -Peso massimo 	                            /numero / SMALLINT
+    -Capacità di carico massima 	            /numero / SMALLINT
+    -Volume minimo del bagagliaio               /numero / SMALLINT
+    -Volume massimo del bagagliaio              /numero / SMALLINT
+    -Capacità del serbatoio di carburante       /numero / SMALLINT
+
+    -Lunghezza                      /numero / SMALLINT
+    -Larghezza                      /numero / SMALLINT	
+    -Altezza 	                    /numero / SMALLINT	
+    -Passo 	                        /numero / SMALLINT	
+    -Carreggiata anteriore          /numero / SMALLINT	
+    -Carreggiata posteriore         /numero / SMALLINT 	    
+    -Altezza dal suolo              /numero / SMALLINT	
+
+    -Architettura dell' avviamento 	        / stringa / TEXT
+    -Trazione                               / stringa / VARCHAR(50)
+    -Numero di marce (cambio automatico)    / numero / SMALLINT
+    -Freni anteriori 	                    / stringa / VARCHAR(50)
+    -Freni posteriori 	                    / stringa / VARCHAR(50)
+    -Sistemi di assistenza                  / stringa / VARCHAR(50)	
+    -Tipo di sterzo                         / stringa / VARCHAR(50)	
+    -Pneumatici                             / stringa / VARCHAR(50)	
+    -Cerchi                                 / stringa / VARCHAR(50) 
+
